@@ -92,38 +92,7 @@
 //     email
 // })=>{
 // //template to be used
-// const template = '# '+ ${title}+'
-// * [Description](#description)
-// * [Installation](#installation)
-// * [Instructions](#instructions)
-// * [Usage](#usage)
-// * [Credits](#credits)
-// * [Contributing](#contributing)
-// * [Tests](#tests)
-// * [License](#license)
-// # Description'
-// ${description}
-// # Installation
-// ${installation}
-// # Instructions
-// ${instructions}
-// ## Usage
-// ${usage}
-// ## Credits
-// ${credits}
-// ## Contributing
-// ${contributing}
-// ## Tests
-// ${tests}
-// ## License
-// ${license}
 
-// # Contact
-// * Github :${git}
-// * Email :${email}';
- 
-// }
-// )
 
 //TODO: Create a function to write README file ***DONE***
 function writeToFile(fileName, data) {
